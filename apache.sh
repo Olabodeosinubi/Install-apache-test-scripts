@@ -8,4 +8,3 @@ firewall-cmd --permanent --add-service=http
 firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --reload
 systemctl restart httpd
-yum install wget epel-release -y
