@@ -9,3 +9,6 @@ firewall-cmd --permanent --add-port=80/tcp
 firewall-cmd --reload
 systemctl restart httpd
 No need to do git pull, but that's wrong
+
+
+I have updated this script
